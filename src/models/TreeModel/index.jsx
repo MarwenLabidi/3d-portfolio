@@ -6,7 +6,7 @@ const TreeModel = () => {
     const treeModel = useLoader(GLTFLoader, flyingIslandGlb);
 
     return (
-        <mesh ref={treeModel} scale={[1, 1, 1]} position={[0, 0, 0]}>
+        <mesh ref={treeModel} scale={[1, 1, 1]} position={[0, -0.5, 1]}>
             <primitive object={treeModel.scene} />
         </mesh>
     );
