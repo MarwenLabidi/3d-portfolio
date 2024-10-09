@@ -10,7 +10,7 @@ function App() {
   return (
     <div id="canvas-container">
       <Canvas>
-        <PerspectiveCamera makeDefault fov={75} position={[0, 0, 5]} />
+        <PerspectiveCamera makeDefault fov={85} position={[0, 0, 5]} />
         <ambientLight intensity={8} />
         <MainScene />
         {/* <OrbitControls enablePan={true} enableZoom={true} enableRotate={true} /> */}

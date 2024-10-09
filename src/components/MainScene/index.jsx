@@ -1,4 +1,4 @@
-import { CameraControls } from "@react-three/drei"
+import { CameraControls, Text } from "@react-three/drei"
 import BlueBee from "../../models/Bee/BlueBee"
 // import NormalBee from "../../models/Bee/NormalBee"
 import Sky from "../../models/sky"
@@ -45,6 +45,11 @@ const MainScene = () => {
                 <boxGeometry args={[1, 1, 1]} />
                 <meshBasicMaterial color="red" wireframe />
             </mesh>
+
+            <Text fontSize={0.5} position={[0, 2, 0]}>
+                Marwen LABIDI
+                <meshBasicMaterial color="red" />
+            </Text>
 
         </>
     )
