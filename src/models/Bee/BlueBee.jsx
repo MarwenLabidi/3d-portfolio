@@ -6,7 +6,7 @@ const BlueBee = () => {
     const blueBee = useLoader(GLTFLoader, stylized_flying_bee_bird_rigged);
 
     return (
-        <mesh ref={blueBee} scale={[1, 1, 1]} position={[0, -0.5, 1]}>
+        <mesh ref={blueBee} scale={[0.01, 0.01, 0.01]} position={[-1, 0, 0]} rotation={[0, 0.3, 0]}>
             <primitive object={blueBee.scene} />
         </mesh>
     );

@@ -6,8 +6,9 @@ const NormalBee = () => {
     const normalBee = useLoader(GLTFLoader, microsoft_bee);
 
     return (
-        <mesh ref={normalBee} scale={[1, 1, 1]} position={[0, -0.5, 1]}>
+        <mesh ref={normalBee} scale={[0,0,0]} position={[0,0, 0]} rotation={[0, 0, 0]}>
             <primitive object={normalBee.scene} />
+            <meshStandardMaterial color="#ffff00" /> // Add a material to the mesh
         </mesh>
     );
 };
