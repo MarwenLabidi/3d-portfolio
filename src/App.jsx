@@ -13,7 +13,7 @@ function App() {
         <PerspectiveCamera makeDefault fov={75} position={[0, 0, 5]} />
         <ambientLight intensity={8} />
         <MainScene />
-        <OrbitControls enablePan={true} enableZoom={true} enableRotate={true} />
+        {/* <OrbitControls enablePan={true} enableZoom={true} enableRotate={true} /> */}
 
       </Canvas>
     </div>
